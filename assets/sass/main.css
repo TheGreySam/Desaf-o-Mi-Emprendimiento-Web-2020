@@ -1,0 +1,17 @@
+/* Error: expected "{".
+ *    ,
+ * 92 |       asd
+ *    |          ^
+ *    '
+ *   C:\Users\Unreal Stage\Documents\FrontEndProjects\Desafío Mi Emprendimiento Web 2020\assets\sass\main.scss 92:10  root stylesheet */
+
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
+  display: block;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: 'Error: expected "{".\a    \2577 \a 92 \2502        asd\d\a    \2502           ^\a    \2575 \a   C:\\Users\\Unreal Stage\\Documents\\FrontEndProjects\\Desafío Mi Emprendimiento Web 2020\\assets\\sass\\main.scss 92:10  root stylesheet';
+}
