@@ -1,0 +1,14 @@
+@import "abstract/vendorvariables";
+@import "vendors/bootstrap/bootstrap";
+
+
+@import "abstract/variables";
+
+body {
+  background-color: red;
+}
+.navbar {
+  display: flex;
+  justify-content: flex-end;
+  background-color: black;
+}
