@@ -9942,6 +9942,16 @@ body {
   width: 30pt;
 }
 
+.section1 {
+  background-color: #FFFFFF;
+  padding: 0pt;
+  transition: padding 2s, background-color 2s;
+}
+.section1:hover {
+  padding: 30pt;
+  background-color: #FFA500;
+}
+
 .desarrolloimg {
   width: 100%;
 }
@@ -10083,6 +10093,16 @@ footer {
 
   .desarrolloimg {
     width: 50%;
+  }
+
+  footer {
+    display: flex;
+    justify-content: space-around;
+  }
+  footer .mail {
+    display: flex;
+    max-height: 30px;
+    vertical-align: center;
   }
 }
 
